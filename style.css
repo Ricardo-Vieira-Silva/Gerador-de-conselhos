@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
@@ -85,4 +86,93 @@ header {
     color: hsl(150, 100%, 66%);
     
 
+=======
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+
+.avatar {
+    text-align: end;
+    padding-right: 30px;
+
+}
+
+.avatar img {
+    width: 50px;
+    border-radius: 22px;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(217, 19%, 24%);
+    max-width: 450px;
+    border-radius: 10px;
+
+}
+
+.card .titulo {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 100%;
+    
+}
+
+.texto  {
+    color: hsl(193, 38%, 86%);
+
+}
+
+.detalhe {
+    color: hsl(193, 38%, 86%);
+    position: absolute;
+    
+}
+
+.card .botao {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    transform: translateY(85%);
+}
+
+.card .botao:hover {
+    color: #53ffab;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+.linha {
+    border-bottom: 2px;
+    width: 100%;
+    color: hsl(150, 100%, 66%);
+    
+
+>>>>>>> d42156889aac71b061060ad05b65880e657193ac
 }
